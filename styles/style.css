@@ -1,0 +1,197 @@
+@import "painCard.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Futura PT", sans-serif;
+
+}
+
+:root {
+    --text--color-gray: #637899;
+    --text--color-blue: #56B8FF;
+    --text--color-black: #27303F;
+    --color-border: #DBE3F0;
+
+}
+
+/*Button*/
+button {
+    width: 392px;
+    height: 56px;
+    color: var(--text--color-blue);
+    background-color: white;
+    border: 2px solid var(--text--color-blue);
+    border-radius: 10px;
+
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+/*FONT-WEIGHT*/
+.fw-800 {
+    font-weight: 800;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1440px;
+    height: 6210px;
+    border: 1px solid var(--text--color-gray);
+
+    position: relative;
+    left: 25%;
+}
+
+/*HEADER*/
+
+header {
+    width: 1440px;
+    height: 820px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    margin-bottom: 96px;
+}
+
+.illustration {
+    position: absolute;
+    width: 676px;
+    height: 740px;
+    left: 632px;
+    top: 80px;
+}
+
+.logo {
+    position: absolute;
+    height: 80px;
+    width: 112px;
+    left: 1196px;
+    top: 64px;
+    border-radius: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 32px;
+    position: absolute;
+    width: 488px;
+    height: 790px;
+    left: 132px;
+    top: 0;
+    border: 1px solid var(--color-border);
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06);
+}
+
+.wrapper__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+
+    /*width: 392px;*/
+    /*height: 474px;*/
+}
+
+.wrapper__header-badge {
+    margin-top: 96px;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--text--color-gray);
+}
+
+.wrapper__header-heading {
+    margin: 24px 0;
+    /*width: 392px;*/
+    /*height: 192px;*/
+    font-size: 64px;
+    line-height: 100%;
+    /*display: flex;*/
+    /*align-items: center;*/
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.wrapper__header-sub {
+    width: 392px;
+    height: 72px;
+    font-size: 20px;
+    line-height: 24px;
+
+    text-align: center;
+    letter-spacing: 0.0025em;
+    color: var(--text--color-gray);
+}
+
+.wrapper__more {
+    margin-top: 97px;
+}
+
+/**/
+.partners {
+
+
+}
+
+/*SECTION INFORMATION_PARTNERS*/
+.information-partners, .general-partners {
+    font-size: 24px;
+    line-height: 132%;
+    letter-spacing: 0.0025em;
+    text-align: center;
+}
+
+.general-partners {
+    margin-bottom: 56px;
+}
+
+.general-partners__title {
+    margin-bottom: 32px;
+}
+
+.information-partners__title {
+    margin-bottom: 32px;
+}
+
+.general-partners__image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 72px;
+    /*width: 366px;*/
+    /*height: 80px;*/
+}
+
+.information-partners__image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 72px;
+
+    width: 847.24px;
+    height: 80px;
+}

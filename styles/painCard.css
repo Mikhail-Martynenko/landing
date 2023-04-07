@@ -1,0 +1,52 @@
+.pain__title {
+    margin-top: 144px;
+    margin-bottom: 80px;
+}
+
+.pain__cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 24px;
+
+    width: 1176px;
+    height: 568px;
+}
+
+.pain__card {
+    padding: 32px 32px 112px 32px;
+    border: 1px solid var(--color-border);
+    border-radius: 20px;
+    color: var(--text--color-gray);
+    font-weight: 500;
+}
+
+.pain__card--1 {
+    width: 276px;
+    height: 272px;
+}
+
+.pain__card--2 {
+    width: 376px;
+    height: 272px;
+}
+
+.pain__card--3 {
+    width: 476px;
+    height: 272px;
+}
+
+.pain__card--4 {
+    width: 376px;
+    height: 272px;
+}
+
+.pain__card--5 {
+    width: 376px;
+    height: 272px;
+}
+
+.pain__card--6 {
+    width: 376px;
+    height: 272px;
+}
