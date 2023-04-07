@@ -3,6 +3,7 @@
     height: 744px;
     background-color: var(--color-background);
     padding: 144px 0;
+    margin-bottom: 144px;
 }
 
 .test-benefits__title {
@@ -34,6 +35,7 @@
 
 
 }
+
 .test-benefits__card--text {
     width: 296px;
     height: 160px;

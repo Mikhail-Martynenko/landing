@@ -1,6 +1,6 @@
 @import "painCard.css";
 @import "testBenefits.css";
-
+@import "experts.css";
 * {
     padding: 0;
     margin: 0;
@@ -46,6 +46,7 @@ p {
     text-align: center;
     letter-spacing: 0.0025em;
     color: var(--text--color-gray);
+
 }
 
 .wrapper__button {
