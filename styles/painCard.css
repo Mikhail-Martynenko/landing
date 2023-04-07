@@ -1,3 +1,7 @@
+.pain {
+    margin-bottom: 96px;
+}
+
 .pain__title {
     margin-top: 144px;
     margin-bottom: 80px;
@@ -14,11 +18,12 @@
 }
 
 .pain__card {
+    position: relative;
     padding: 32px 32px 112px 32px;
     border: 1px solid var(--color-border);
     border-radius: 20px;
     color: var(--text--color-gray);
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .pain__card--1 {
@@ -49,4 +54,11 @@
 .pain__card--6 {
     width: 376px;
     height: 272px;
+}
+.pain-emoji {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    bottom: 24px;
+    right: 24px;
 }

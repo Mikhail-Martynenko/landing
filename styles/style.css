@@ -1,4 +1,5 @@
 @import "painCard.css";
+@import "testBenefits.css";
 
 * {
     padding: 0;
@@ -14,7 +15,12 @@
     --text--color-blue: #56B8FF;
     --text--color-black: #27303F;
     --color-border: #DBE3F0;
+    --color-background: #F9FAFD;
 
+}
+
+img {
+    display: block;
 }
 
 /*Button*/
@@ -33,11 +39,20 @@ button {
     letter-spacing: 0.04em;
     text-transform: uppercase;
 }
+
+p {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.0025em;
+    color: var(--text--color-gray);
+}
+
 .wrapper__button {
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    color:var(--text--color-gray)
+    color: var(--text--color-gray)
 }
 
 /*FONT-WEIGHT*/
@@ -56,6 +71,7 @@ button {
 .fw-400 {
     font-weight: 400;
 }
+
 .container {
     display: flex;
     flex-direction: column;
@@ -154,6 +170,7 @@ header {
     margin-top: 95px;
     position: relative;
 }
+
 .wrapper__more--text {
     display: flex;
     flex-direction: column;
@@ -165,7 +182,7 @@ header {
     position: absolute;
     width: 95px;
     height: 48px;
-    left: calc(50% - 95px/2 - 0.5px);
+    left: calc(50% - 95px / 2 - 0.5px);
     bottom: 52px;
 }
 
@@ -214,4 +231,24 @@ header {
 
     width: 847.24px;
     height: 80px;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.0025em;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 24px;
+    line-height: 132%;
+    letter-spacing: 0.0025em;
+    text-align: center;
+}
+
+.result-title {
+    width: 768px;
+    height: 96px;
+    margin-bottom: 144px;
 }
