@@ -6,8 +6,7 @@
     list-style: none;
     outline: none;
     box-sizing: border-box;
-    font-family: "Futura PT", sans-serif;
-
+    font-family: 'Futura PT', sans-serif;
 }
 
 :root {
@@ -131,10 +130,10 @@ header {
 }
 
 .wrapper__header-heading {
+    font-family: 'Futura Condensed PT', sans-serif;
     margin: 24px 0;
-    /*width: 392px;*/
     height: 192px;
-    font-size: 54px;
+    font-size: 64px;
     line-height: 100%;
     /*display: flex;*/
     /*align-items: center;*/
