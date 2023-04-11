@@ -25,7 +25,10 @@ img {
 }
 
 a {
-    color: var(--text--color-gray)
+    color: var(--text--color-gray);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
 }
 
 /*Button*/
