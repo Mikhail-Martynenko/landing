@@ -10,6 +10,7 @@
     outline: none;
     box-sizing: border-box;
     font-family: 'Futura PT', sans-serif;
+    outline: 1px solid red; /*delete*/
 }
 
 img {
@@ -85,26 +86,21 @@ p {
     flex-direction: column;
     align-items: center;
     max-width: 1440px;
-    height: 6210px;
 
     position: relative;
-    left: 25%;
+    border: 1px solid red;
 }
 
 /*HEADER*/
 
 header {
-    width: 1440px;
+    width: 100%;
     height: 820px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-
     margin-bottom: 96px;
 }
 
 .illustration {
-    position: absolute;
+    position: relative; /*absolute*/
     width: 676px;
     height: 740px;
     left: 632px;
@@ -117,10 +113,11 @@ header {
     width: 112px;
     left: 1196px;
     top: 64px;
-    border-radius: 0;
 }
 
 .wrapper {
+    z-index: 1000;
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -176,7 +173,7 @@ header {
 }
 
 .wrapper__more {
-    margin-top: 95px;
+    margin-top: 92px;
     position: relative;
 }
 
@@ -203,6 +200,11 @@ header {
 
 /*SECTION INFORMATION_PARTNERS*/
 .information-partners, .general-partners {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
     font-size: 24px;
     line-height: 132%;
     letter-spacing: 0.0025em;
@@ -260,4 +262,79 @@ h4 {
     width: 768px;
     height: 96px;
     margin-bottom: 144px;
+}
+
+@media (max-width: 980px) {
+    .pain__card--1 {
+        width: 212px;
+        height: 304px;
+    }
+
+    .pain__card--2 {
+        width: 290px;
+        height: 304px;
+    }
+
+    .pain__card--3 {
+        width: 366px;
+        height: 304px;
+    }
+
+    .pain__card--4 {
+        width: 289px;
+        height: 304px;
+    }
+
+    .pain__card--5 {
+        width: 290px;
+        height: 304px;
+    }
+
+    .pain__card--6 {
+        width: 289px;
+        height: 304px;
+    }
+}
+
+/*@media (max-width: 1232px) {*/
+/*    .container {*/
+/*    }*/
+/*}*/
+
+@media (max-width: 979px ) and (min-width: 768px) {
+    body {
+        width: 768px;
+        overflow: hidden; /*МБ добавить в основные стили body, сделат, чтобы скрывалась частично картинка*/
+    }
+
+    .wrapper {
+        position: absolute;
+        width: 640px;
+        height: 716px;
+        left: calc(50% - 640px / 2);
+        top: 0;
+    }
+
+    .illustration {
+        position: absolute;
+        width: 896px;
+        height: 981px;
+        left: -64px;
+        top: 272px;
+    }
+
+    .pain {
+        width: 916px;
+        /*height: 808px;*/
+    }
+
+    .test-benefits {
+        width: 980px;
+        height: 792px;
+    }
+
+    .test-benefits__card {
+        width: 289px;
+        height: 328px;
+    }
 }
