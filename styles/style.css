@@ -13,9 +13,18 @@
     outline: 1px solid red; /*delete*/
 }
 
+html {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 body {
     display: flex;
     justify-content: center;
+    width: 100%;
+    align-items: center;
 }
 
 img {
@@ -92,7 +101,6 @@ p {
     align-items: center;
     max-width: 1440px;
     /* position: relative;*/
-    border: 1px solid red;
 }
 
 /*HEADER*/
@@ -306,7 +314,7 @@ h4 {
 
 @media (max-width: 979px ) and (min-width: 768px) {
     body {
-        width: 768px;
+
     }
 
     .container {
@@ -511,6 +519,172 @@ h4 {
         height: 96px;
     }
 }
+
+@media (max-width: 767px ) and (min-width: 320px) {
+    body {
+        width: 320px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0 16px;
+    }
+
+    .logo {
+        position: absolute;
+        width: 77.45px;
+        height: 56px;
+        left: 110px;
+        top: 48px;
+        z-index: 10000;
+    }
+
+    .illustration {
+        width: 448px;
+        height: 490.24px;
+        left: -64px;
+        top: 272px;
+    }
+
+    .wrapper {
+        position: relative;
+        width: 288px;
+        height: 614px;
+        left: 0;
+        top: -490px;
+        margin: 0 16px;
+    }
+
+    .wrapper__header {
+        margin-bottom: 0;
+    }
+
+    .wrapper__header-badge {
+        margin-top: 136px;
+        font-size: 18px;
+    }
+
+    .wrapper__header-heading {
+        width: 256px;
+        height: 132px;
+        font-size: 44px;
+
+    }
+
+    .wrapper__header-sub {
+        width: 256px;
+        height: 88px;
+        margin-bottom: 32px;
+        font-size: 18px;
+    }
+
+    button {
+        width: 256px;
+        height: 48px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .wrapper__more {
+        margin-top: 46px;
+    }
+
+    .arc {
+        width: 288px;
+        height: 81px;
+    }
+
+    .general-partners__title, .information-partners__title {
+        font-size: 20px;
+    }
+
+    .general-partners__image-1 {
+        width: 118.41px;
+        height: 45.43px;
+    }
+
+    .general-partners__image-2 {
+        width: 99.16px;
+        height: 45.43px;
+    }
+
+    .information-partners__image--1 {
+        width: 79.04px;
+        height: 52.89px;
+    }
+
+    .information-partners__image--2 {
+        width: 133.88px;
+        height: 52.89px;
+    }
+
+    .information-partners__image--3 {
+        width: 99.82px;
+        height: 40.99px;
+    }
+
+    .information-partners__image--4 {
+        width: 118.65px;
+        height: 52.89px;
+    }
+
+    .pain {
+        width: 288px;
+        height: 1282px;
+    }
+
+    .pain__title {
+        font-size: 32px;
+        margin-bottom: 56px;
+    }
+
+    .pain__card {
+        width: 288px;
+        height: 158px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    .pain__cards {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 12px;
+        font-size: 20px;
+        width: 1176px;
+        height: 568px;
+        flex-direction: column;
+    }
+
+    .result-title {
+        width: 100%;
+        font-size: 20px;
+        height: auto;
+        margin-bottom: 144px;
+    }
+
+    .test-benefits {
+        height: 1098px;
+    }
+
+    .test-benefits__card {
+        width: 288px;
+        height: 296px;
+        display: flex;
+        align-items: center;
+    }
+
+    .test-benefits__cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+}
+
 
 
 
