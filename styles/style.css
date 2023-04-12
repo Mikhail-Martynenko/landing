@@ -13,6 +13,11 @@
     outline: 1px solid red; /*delete*/
 }
 
+body {
+    display: flex;
+    justify-content: center;
+}
+
 img {
     display: block;
 }
@@ -86,8 +91,7 @@ p {
     flex-direction: column;
     align-items: center;
     max-width: 1440px;
-
-    position: relative;
+    /* position: relative;*/
     border: 1px solid red;
 }
 
@@ -227,7 +231,6 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0;
     gap: 72px;
     /*width: 366px;*/
     /*height: 80px;*/
@@ -304,15 +307,54 @@ h4 {
 @media (max-width: 979px ) and (min-width: 768px) {
     body {
         width: 768px;
-        overflow: hidden; /*МБ добавить в основные стили body, сделат, чтобы скрывалась частично картинка*/
     }
+
+    .container {
+        width: 100%;
+        padding: 0 24px;
+    }
+
+    .logo {
+        position: absolute;
+        width: 77.45px;
+        height: 56px;
+        left: 354.77px;
+        top: 48px;
+        z-index: 10000;
+    }
+
 
     .wrapper {
         position: absolute;
         width: 640px;
         height: 716px;
-        left: calc(50% - 640px / 2);
+        left: 0; /* left: calc(50% - 640px / 2);*/
         top: 0;
+        margin: 0 64px;
+    }
+
+    .wrapper__header {
+        margin-bottom: 0;
+    }
+
+    .wrapper__header-badge {
+        margin-top: 136px;
+    }
+
+    .wrapper__header-heading {
+        width: 544px;
+        height: 128px;
+
+    }
+
+    .wrapper__header-sub {
+        width: 392px;
+        height: 72px;
+        margin-bottom: 45px;
+    }
+
+    .wrapper__more {
+        margin-top: 46px;
     }
 
     .illustration {
@@ -323,18 +365,152 @@ h4 {
         top: 272px;
     }
 
+    .partners {
+        margin-top: 537px;
+    }
+
+    .information-partners__image {
+        width: 504px;
+        height: 151.21px;
+        column-gap: 60px;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 16px;
+    }
+
+    .information-partners__image--1 {
+        width: 181.05px;;
+        height: 67.61px;
+    }
+
+    .information-partners__image--2 {
+        width: 171.16px;
+        height: 67.61px;
+    }
+
+    .information-partners__image--3 {
+        width: 127.61px;
+        height: 52.4px;
+    }
+
+    .information-partners__image--4 {
+        width: 151.68px;
+        height: 40.56px;
+    }
+
     .pain {
-        width: 916px;
+        width: 720px;
         /*height: 808px;*/
     }
 
+    .pain__cards {
+        width: 720px;
+        height: 896px;
+    }
+
+    .pain__card--1 {
+        width: 224px;
+        height: 304px;
+    }
+
+    .pain__card--2 {
+        width: 472px;
+        height: 304px;
+    }
+
+    .pain__card--3 {
+        width: 348px;
+        height: 272px;
+    }
+
+    .pain__card--4 {
+        width: 348px;
+        height: 272px;
+    }
+
+    .pain__card--5 {
+        width: 348px;
+        height: 272px;
+    }
+
+    .pain__card--6 {
+        width: 348px;
+        height: 272px;
+    }
+
+
     .test-benefits {
-        width: 980px;
-        height: 792px;
+        width: 768px;
+        height: 1096px;
+    }
+
+    .test-benefits__cards {
+        flex-wrap: wrap;
     }
 
     .test-benefits__card {
-        width: 289px;
-        height: 328px;
+        width: 348px;
+        height: 304px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .experts__card {
+        width: 211px;
+        height: 231px;
+    }
+
+    .experts__card--photo {
+        width: 131px;
+        height: 131px;
+    }
+
+    .experts__mul {
+        width: 720px;
+        height: 416px;
+    }
+
+    .experts__mul__card {
+        padding: 40px;
+    }
+
+    .experts__mul--text {
+        width: 448px;
+        height: 336px;
+    }
+
+    footer {
+        width: 768px;
+        height: 978px;
+    }
+
+    .social-networks {
+        width: 768px;
+    }
+
+    .illustration-bottom {
+        position: absolute;
+        width: 348px;
+        height: 353px;
+        right: 0;
+        top: calc(33% - 353px / 2 + 0.5px);
+    }
+
+    .footer-logo {
+        right: 24px;
+    }
+
+    .footer__text {
+        width: 348px;
+        height: 360px;
+        margin: 144px 396px 474px 24px;
+    }
+
+    .fix-width {
+        width: 348px;
+        height: 96px;
     }
 }
+
+
+
