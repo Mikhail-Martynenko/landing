@@ -318,8 +318,13 @@ h4 {
     }
 
     .container {
-        width: 100%;
+        width: 768px;
         padding: 0 24px;
+        overflow: hidden;
+    }
+
+    header {
+        position: relative;
     }
 
     .logo {
@@ -333,11 +338,11 @@ h4 {
 
 
     .wrapper {
-        position: absolute;
+        position: relative;
         width: 640px;
         height: 716px;
         left: 0; /* left: calc(50% - 640px / 2);*/
-        top: 0;
+        top: -981px;
         margin: 0 64px;
     }
 
@@ -366,7 +371,7 @@ h4 {
     }
 
     .illustration {
-        position: absolute;
+        /*position: absolute;*/
         width: 896px;
         height: 981px;
         left: -64px;
