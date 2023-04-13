@@ -528,6 +528,7 @@ h4 {
     .container {
         width: 100%;
         padding: 0 16px;
+        overflow: hidden;
     }
 
     .logo {
@@ -535,7 +536,7 @@ h4 {
         width: 77.45px;
         height: 56px;
         left: 110px;
-        top: 48px;
+        top: 22px;
         z-index: 10000;
     }
 
@@ -546,13 +547,18 @@ h4 {
         top: 272px;
     }
 
+    header {
+        position: relative;
+        margin-bottom: 32px;
+    }
+
     .wrapper {
         position: relative;
         width: 288px;
         height: 614px;
         left: 0;
         top: -490px;
-        margin: 0 16px;
+        overflow: hidden;
     }
 
     .wrapper__header {
@@ -560,7 +566,6 @@ h4 {
     }
 
     .wrapper__header-badge {
-        margin-top: 136px;
         font-size: 18px;
     }
 
@@ -578,6 +583,14 @@ h4 {
         font-size: 18px;
     }
 
+    .wrapper__more--text {
+        font-size: 18px;
+        width: 86px;
+        left: 35%;
+        height: 22px;
+    }
+
+
     button {
         width: 256px;
         height: 48px;
@@ -588,12 +601,17 @@ h4 {
     }
 
     .wrapper__more {
-        margin-top: 46px;
+        margin-top: 30px;
     }
 
     .arc {
-        width: 288px;
-        height: 81px;
+        width: 272px;
+        height: 80px;
+    }
+
+
+    .partners {
+        width: 100%;
     }
 
     .general-partners__title, .information-partners__title {
@@ -608,6 +626,17 @@ h4 {
     .general-partners__image-2 {
         width: 99.16px;
         height: 45.43px;
+    }
+
+    .information-partners__image {
+        width: 100%;
+        height: 121.77px;
+        row-gap: 16px;
+        column-gap: 46px;
+        align-content: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .information-partners__image--1 {
@@ -629,6 +658,7 @@ h4 {
         width: 118.65px;
         height: 52.89px;
     }
+
 
     .pain {
         width: 288px;
@@ -654,8 +684,8 @@ h4 {
         flex-wrap: nowrap;
         gap: 12px;
         font-size: 20px;
-        width: 1176px;
-        height: 568px;
+        width: 100%;
+        height: auto;
         flex-direction: column;
     }
 
@@ -666,8 +696,13 @@ h4 {
         margin-bottom: 144px;
     }
 
+    main {
+        width: 100%;
+    }
+
     .test-benefits {
-        height: 1098px;
+        width: 100%;
+        height: 1290px;
     }
 
     .test-benefits__card {
@@ -683,7 +718,134 @@ h4 {
         align-items: center;
         gap: 12px;
     }
+
+    .test-benefits__title {
+        gap: 16px;
+        margin-bottom: 56px;
+
+    }
+
+    .test-benefits__card--text {
+        font-size: 18px;
+    }
+
+    /**/
+    .experts {
+        /*width: 288px;*/
+        /*height: 1186px;*/
+    }
+
+    .experts__title {
+        width: 100%;
+        height: 164px;
+        margin-bottom: 80px;
+    }
+
+    .experts__card {
+        width: 188px;
+        height: 308px;
+    }
+
+    .scroll {
+        width: 100%;
+    }
+
+    .experts__cards {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        justify-content: flex-start;
+    }
+
+    .experts__card--photo {
+        width: 131px;
+        height: 131px;
+    }
+
+    .experts__mul {
+        width: 288px;
+        height: 806px
+
+    }
+
+    .experts__mul__card {
+        flex-direction: column;
+        padding: 40px 16px;
+        align-items: center
+    }
+
+    .experts__mul--text {
+        width: 256px;
+        height: 462px;
+        font-size: 18px;
+        margin-top: 24px;
+    }
+
+    .points-blue {
+        width: 40px;
+        height: 40px;
+        bottom: 16px;
+        right: 16px;
+    }
+
+    footer {
+        width: 320px;
+        height: 1248px;
+    }
+
+    .illustration-bottom {
+        width: 288px;
+        height: 292px;
+        bottom: 568px;
+        right: 16px;
+    }
+
+    .footer__text {
+        text-align: center;
+        width: 288px;
+        height: 260px;
+        margin: 96px 16px 892px 16px;
+    }
+
+    .fix-width {
+        width: 288px;
+        height: 88px;
+        margin: 16px 0 32px 0;
+        font-size: 18px;
+    }
+
+    h2 {
+        text-align: left;
+    }
+
+    .social-networks {
+        width: 100%;
+        height: 456px;
+        flex-direction: column;
+        margin-top: 380px;
+    }
+
+    .social-networks__container {
+        margin-bottom: 45px;
+    }
+
+    .freepik {
+        position: absolute;
+        bottom: 126px;
+        left: 16px;
+        right: 16px;
+        text-align: left;
+    }
+
+    .footer-logo {
+        width: 77.19px;
+        height: 56px;
+        bottom: 56px;
+        right: 16px;
+    }
+
 }
+
 
 
 
