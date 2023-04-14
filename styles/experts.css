@@ -3,7 +3,11 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    padding-top: 144px;
+    gap: 80px;
+
 }
+
 
 .experts__title {
     width: 512px;
@@ -12,7 +16,6 @@
     flex-direction: column;
     align-items: center;
     gap: 24px;
-    margin-bottom: 80px;
 }
 
 .experts__cards {
@@ -32,7 +35,7 @@
     height: 296px;
 }
 
-.experts__card--photo{
+.experts__card--photo {
     width: 196px;
     height: 196px;
     border: 1px solid #DBE3F0;

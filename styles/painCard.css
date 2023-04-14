@@ -1,11 +1,8 @@
 .pain {
     width: 1176px;
-    margin-bottom: 96px;
-}
-
-.pain__title {
-    margin-top: 144px;
-    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
 }
 
 .pain__cards {
@@ -56,6 +53,7 @@
     width: 376px;
     height: 272px;
 }
+
 .pain-emoji {
     position: absolute;
     width: 24px;
