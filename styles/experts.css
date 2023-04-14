@@ -77,7 +77,7 @@
 
 .experts__mul__card {
     display: flex;
-    padding: 56px 252px; /*min(max(40px,4vw),56px) 256px*/
+    padding: 0 256px; /*min(max(40px,4vw),56px) 256px*/
     column-gap: 40px;
 }
 
