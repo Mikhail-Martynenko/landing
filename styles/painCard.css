@@ -2,6 +2,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 80px;
 }
 
@@ -56,7 +57,12 @@
     bottom: 24px;
     right: 24px;
 }
+
 .result-title {
     width: 65%;
     height: 8%;
+}
+
+.pain > :first-child {
+    align-self: flex-start;
 }

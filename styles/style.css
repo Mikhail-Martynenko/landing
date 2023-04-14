@@ -57,9 +57,7 @@ button {
     background-color: white;
     border: 2px solid var(--text--color-blue);
     border-radius: 10px;
-
     margin-bottom: 12px;
-
     font-size: 18px;
     line-height: 20px;
     letter-spacing: 0.04em;
@@ -106,12 +104,8 @@ p {
 }
 
 .container {
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*align-items: center;*/
     max-width: 1440px;
     padding: 0 132px;
-    /* position: relative;*/
 }
 
 /*HEADER*/
@@ -124,12 +118,14 @@ header {
 
 main {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .illustration {
     position: absolute;
-    width: 676px;
-    height: 740px;
     top: 80px;
     right: 0;
     z-index: -1;
@@ -181,8 +177,6 @@ main {
     height: 192px;
     font-size: 64px;
     line-height: 100%;
-    /*display: flex;*/
-    /*align-items: center;*/
     text-align: center;
     text-transform: uppercase;
 }
@@ -241,8 +235,6 @@ main {
     flex-direction: row;
     align-items: center;
     gap: 72px;
-    /*width: 366px;*/
-    /*height: 80px;*/
 }
 
 .information-partners__image {
@@ -251,9 +243,6 @@ main {
     align-items: center;
     padding: 0;
     gap: 72px;
-
-    width: 847.24px;
-    height: 80px;
 }
 
 h2 {
@@ -315,7 +304,6 @@ h4 {
     .wrapper__header-heading {
         width: 544px;
         height: 128px;
-
     }
 
     .wrapper__header-sub {
@@ -330,8 +318,6 @@ h4 {
 
     .illustration {
         /*position: absolute;*/
-        width: 896px;
-        height: 981px;
         left: -64px;
         top: 272px;
     }
@@ -370,8 +356,6 @@ h4 {
     }
 
     .pain {
-        /*width: 720px;*/
-        /*height: 808px;*/
     }
 
     .pain__cards {
@@ -692,8 +676,6 @@ h4 {
 
     /**/
     .experts {
-        /*width: 288px;*/
-        /*height: 1186px;*/
     }
 
     .experts__title {
@@ -804,7 +786,6 @@ h4 {
         bottom: 56px;
         right: 16px;
     }
-
 }
 
 
