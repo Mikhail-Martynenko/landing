@@ -1,5 +1,5 @@
 .pain {
-    width: 1176px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 80px;
@@ -11,7 +11,7 @@
     align-items: flex-start;
     gap: 24px;
     font-size: 24px;
-    width: 1176px;
+    width: 100%;
     height: 568px;
 }
 
@@ -22,36 +22,31 @@
     border-radius: 20px;
     color: var(--text--color-gray);
     font-weight: 600;
+    height: 272px;
 }
 
 .pain__card--1 {
-    width: 276px;
-    height: 272px;
+    width: 23%;
 }
 
 .pain__card--2 {
-    width: 376px;
-    height: 272px;
+    width: 32%;
 }
 
 .pain__card--3 {
-    width: 476px;
-    height: 272px;
+    width: 38%;
 }
 
 .pain__card--4 {
-    width: 376px;
-    height: 272px;
+    width: 32%;
 }
 
 .pain__card--5 {
-    width: 376px;
-    height: 272px;
+    width: 32%;
 }
 
 .pain__card--6 {
-    width: 376px;
-    height: 272px;
+    width: 29%
 }
 
 .pain-emoji {
@@ -60,4 +55,8 @@
     height: 24px;
     bottom: 24px;
     right: 24px;
+}
+.result-title {
+    width: 65%;
+    height: 8%;
 }
