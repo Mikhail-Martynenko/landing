@@ -22,6 +22,7 @@ footer {
 }
 
 .illustration-bottom {
+    min-width: 446px;
 }
 
 .social-networks {
