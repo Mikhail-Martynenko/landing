@@ -124,7 +124,7 @@ main {
     align-items: center;
 }
 
-.illustration {
+.it-department-work-image {
     position: absolute;
     top: 80px;
     right: 0;
@@ -139,7 +139,7 @@ main {
     top: 64px;
 }
 
-.wrapper {
+.header-content__wrapper {
     z-index: 1000;
     background-color: white;
     display: flex;
@@ -258,6 +258,9 @@ h4 {
     letter-spacing: 0.0025em;
     text-align: center;
 }
+small {
+    font-size: 18px;
+}
 
 @media (max-width: 979px ) and (min-width: 768px) {
     body {
@@ -284,7 +287,7 @@ h4 {
     }
 
 
-    .wrapper {
+    .header-content__wrapper {
         position: relative;
         width: 640px;
         height: 716px;
@@ -316,7 +319,7 @@ h4 {
         margin-top: 46px;
     }
 
-    .illustration {
+    .it-department-work-image {
         /*position: absolute;*/
         max-width: 896px;
         width: 100%;
@@ -488,7 +491,7 @@ h4 {
         z-index: 10000;
     }
 
-    .illustration {
+    .it-department-work-image {
         width: 448px;
         height: 490.24px;
         left: -64px;
@@ -499,7 +502,7 @@ h4 {
         position: relative;
     }
 
-    .wrapper {
+    .header-content__wrapper {
         position: relative;
         width: 288px;
         height: 614px;
@@ -529,7 +532,6 @@ h4 {
     }
 
     .wrapper__more--text {
-        font-size: 18px;
         width: 86px;
         left: 35%;
         height: 22px;
