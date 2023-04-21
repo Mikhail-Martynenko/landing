@@ -85,7 +85,7 @@ a {
 
 /*Button*/
 button {
-    width: 82%;
+    width: 100%;
     height: 56px;
     color: var(--text--color-blue);
     background-color: white;
@@ -313,11 +313,11 @@ small {
     }
 
     .logo {
-        width: 77px;
+        width: 123px;
         height: 56px;
         left: 354px;
         top: 48px;
-        z-index: 1000;
+        z-index: 10000;
     }
 
     .header-content__wrapper {
