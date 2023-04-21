@@ -74,9 +74,7 @@ button:hover {
 p {
     font-size: 20px;
     line-height: 24px;
-    text-align: center;
     letter-spacing: 0.0025em;
-    color: var(--text--color-gray);
 }
 
 .wrapper__button {
@@ -328,32 +326,31 @@ small {
 
     .information-partners__image {
         width: 504px;
-        height: 151.21px;
         column-gap: 60px;
         flex-wrap: wrap;
         justify-content: center;
         row-gap: 16px;
     }
 
-    .information-partners__image--1 {
-        width: 181.05px;;
-        height: 67.61px;
-    }
+    /*.information-partners__image--1 {*/
+    /*    width: 181.05px;;*/
+    /*    height: 67.61px;*/
+    /*}*/
 
-    .information-partners__image--2 {
-        width: 171.16px;
-        height: 67.61px;
-    }
+    /*.information-partners__image--2 {*/
+    /*    width: 171.16px;*/
+    /*    height: 67.61px;*/
+    /*}*/
 
-    .information-partners__image--3 {
-        width: 127.61px;
-        height: 52.4px;
-    }
+    /*.information-partners__image--3 {*/
+    /*    width: 127.61px;*/
+    /*    height: 52.4px;*/
+    /*}*/
 
-    .information-partners__image--4 {
-        width: 151.68px;
-        height: 40.56px;
-    }
+    /*.information-partners__image--4 {*/
+    /*    width: 151.68px;*/
+    /*    height: 40.56px;*/
+    /*}*/
 
     .partners {
         margin-top: 257px;
@@ -395,6 +392,7 @@ small {
     }
 
 
+
     .test-benefits {
         width: 768px;
         height: 1096px;
@@ -416,21 +414,21 @@ small {
         height: 231px;
     }
 
-    .experts__card--photo {
+    .experts__card-photo {
         width: 131px;
         height: 131px;
     }
 
-    .experts__mul {
+    .experts__CEO {
         width: 720px;
         height: 416px;
     }
 
-    .experts__mul__card {
+    .experts__CEO__card {
         padding: 40px;
     }
 
-    .experts__mul--text {
+    .experts__CEO-text {
         width: 448px;
         height: 336px;
     }
@@ -577,7 +575,6 @@ small {
 
     .information-partners__image {
         width: 100%;
-        height: 121.77px;
         row-gap: 16px;
         column-gap: 46px;
         align-content: center;
@@ -586,25 +583,25 @@ small {
         flex-wrap: wrap;
     }
 
-    .information-partners__image--1 {
-        width: 79.04px;
-        height: 52.89px;
-    }
+    /*.information-partners__image--1 {*/
+    /*    width: 79.04px;*/
+    /*    height: 52.89px;*/
+    /*}*/
 
-    .information-partners__image--2 {
-        width: 133.88px;
-        height: 52.89px;
-    }
+    /*.information-partners__image--2 {*/
+    /*    width: 133.88px;*/
+    /*    height: 52.89px;*/
+    /*}*/
 
-    .information-partners__image--3 {
-        width: 99.82px;
-        height: 40.99px;
-    }
+    /*.information-partners__image--3 {*/
+    /*    width: 99.82px;*/
+    /*    height: 40.99px;*/
+    /*}*/
 
-    .information-partners__image--4 {
-        width: 118.65px;
-        height: 52.89px;
-    }
+    /*.information-partners__image--4 {*/
+    /*    width: 118.65px;*/
+    /*    height: 52.89px;*/
+    /*}*/
 
     .pain__title {
         font-size: 32px;
@@ -665,7 +662,7 @@ small {
         gap: 16px;
     }
 
-    .test-benefits__card--text {
+    .test-benefits__card-text {
         font-size: 18px;
     }
 
@@ -690,24 +687,24 @@ small {
         justify-content: flex-start;
     }
 
-    .experts__card--photo {
+    .experts__card-photo {
         width: 131px;
         height: 131px;
     }
 
-    .experts__mul {
+    .experts__CEO {
         width: 288px;
         height: 806px
 
     }
 
-    .experts__mul__card {
+    .experts__CEO__card {
         flex-direction: column;
         padding: 40px 16px;
         align-items: center
     }
 
-    .experts__mul--text {
+    .experts__CEO-text {
         width: 256px;
         height: 462px;
         font-size: 18px;
