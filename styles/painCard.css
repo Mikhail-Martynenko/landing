@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     gap: var(--spacing-l);
+    margin-bottom:  var(--spacing-xl);
 }
 
 .pain__cards {

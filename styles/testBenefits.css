@@ -4,6 +4,7 @@
     display: flex;
     gap: var(--spacing-l);
     flex-direction: column;
+    margin-bottom:  var(--spacing-xl);
 }
 
 .test-benefits__title {
@@ -27,6 +28,7 @@
 
 .test-benefits__card {
     width: 32%;
+    max-width:  376px;;
     border: 1px solid var(--color-border);
     box-shadow: var(--shadow);
     border-radius: 20px;

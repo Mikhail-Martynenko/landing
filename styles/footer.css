@@ -35,6 +35,7 @@ footer {
 
 .footer__text-p {
     width: 100%;
+    max-width: 476px;
     font-size: var(--font-size-20);
     line-height: 24px;
     color: var(--text--color-gray);
@@ -44,6 +45,15 @@ footer {
 
 .footer__text-block {
     width: 48%;
+}
+
+.footer__text-block button {
+    max-width: 392px;
+}
+
+.footer__text-it-department-work-image {
+    position: relative;
+    top: -100px;
 }
 
 .icons {

@@ -170,14 +170,14 @@ main {
 
 .it-department-work-image {
     top: var(--spacing-l);
-    right: 0;
+    right: 132px;
     z-index: -1;
 }
 
 .logo {
     height: var(--spacing-l);
     width: 112px;
-    right: 0;
+    right: 132px;
     top: 64px;
 }
 
@@ -225,7 +225,6 @@ main {
 .wrapper__header-sub {
     font-size: var(--font-size-20);
     line-height: 24px;
-
     text-align: center;
     letter-spacing: 0.0025em;
     color: var(--text--color-gray);
