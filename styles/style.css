@@ -76,7 +76,6 @@ body {
     gap: var(--spacing-xl);
 }
 
-
 a {
     color: var(--text--color-gray);
     font-size: var(--font-size-18);
@@ -114,6 +113,7 @@ p {
 .wrapper__button {
     display: flex;
     flex-direction: column;
+    width: 100%;
     font-size: var(--font-size-18);
     line-height: 22px;
     text-align: center;
@@ -139,7 +139,7 @@ p {
 
 .container {
     max-width: 1440px;
-    padding: 0 132px;
+    padding: 0 calc(32px + (132 - 32) * ((100vw - 980px) / (1440 - 980)));
 }
 
 /*Positions*/
@@ -325,11 +325,15 @@ small {
         height: 716px;
         left: 0;
         top: 0;
-        margin: 0 64px;
+        margin: 0 auto;
     }
 
     .wrapper__header {
         margin-bottom: 0;
+    }
+
+    .wrapper__button {
+        width: 70%;
     }
 
     .wrapper__header-badge {
@@ -352,8 +356,9 @@ small {
     }
 
     .it-department-work-image {
-        width: 100%;
-        top: 334px;
+        width: calc(100% + 128px);
+        right: -64px;
+        top: 272px;
     }
 
     .information-partners__image {
@@ -394,7 +399,9 @@ small {
     .pain__card--6 {
         width: 48%;
     }
-
+    .result-title {
+        width: 100%;
+    }
     .test-benefits__cards {
         flex-wrap: wrap;
     }
@@ -437,6 +444,10 @@ small {
         width: 768px;
     }
 
+    .footer__text-block > :first-child {
+        width: 356px;
+    }
+
     .footer__text-it-department-work-image {
         position: absolute;
         width: 348px;
@@ -446,11 +457,11 @@ small {
     }
 
     .footer-logo {
-        right: var(--spacing-s);
+        right: calc(var(--spacing-s)*2);
     }
 
     .footer__text {
-        margin: var(--spacing-xl) 396px 474px var(--spacing-s);
+        margin: var(--spacing-xl) 396px 162px 0;
     }
 
 }
@@ -484,7 +495,7 @@ small {
 
     .header-content__wrapper {
         position: relative;
-        width: 288px;
+        width: 100%;
         height: 614px;
         left: 0;
         /*overflow: hidden;*/
@@ -516,10 +527,11 @@ small {
         left: 35%;
         height: 22px;
     }
-
+    .wrapper__button {
+        width: 268px;
+    }
 
     button {
-        width: 256px;
         height: 48px;
     }
 

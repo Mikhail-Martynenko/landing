@@ -13,8 +13,8 @@ footer {
 }
 
 .footer-logo {
-    right: 132px;
-    bottom: var(--spacing-l);
+    right: 0;
+    bottom: 0;
 }
 
 .social-networks {
@@ -46,7 +46,9 @@ footer {
 .footer__text-block {
     width: 48%;
 }
-
+.footer__text-block > :first-child {
+    width: 368px;
+}
 .footer__text-block button {
     max-width: 392px;
 }
@@ -72,6 +74,10 @@ footer {
 .questions__container, .social-networks__container > :first-child {
     font-size: var(--font-size-20);
     color: var(--text--color-gray);
+}
+
+.contacts_designer {
+    margin-bottom: var(--spacing-l);
 }
 
 .contacts_designer a {
