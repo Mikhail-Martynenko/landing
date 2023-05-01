@@ -1,0 +1,167 @@
+@media (max-width: 979px ) and (min-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 0 var(--spacing-s);
+        /*overflow: hidden;*/
+    }
+
+    header {
+        margin-bottom: 271px;
+    }
+
+    .logo {
+        width: 123px;
+        height: 56px;
+        left: 354px;
+        top: 48px;
+        z-index: 10000;
+    }
+
+    .header-content__wrapper {
+        position: relative;
+        width: 640px;
+        height: 716px;
+        left: 0;
+        top: 0;
+        margin: 0 auto;
+    }
+
+    .wrapper__header {
+        margin-bottom: 0;
+    }
+
+    .wrapper__button {
+        width: 70%;
+    }
+
+    .wrapper__header-badge {
+        margin-top: 136px;
+    }
+
+    .wrapper__header-heading {
+        width: 544px;
+        height: 128px;
+    }
+
+    .wrapper__header-sub {
+        width: 392px;
+        height: 72px;
+        margin-bottom: 45px;
+    }
+
+    .wrapper__more {
+        margin-top: 46px;
+    }
+
+    .it-department-work-image {
+        width: calc(100% + 128px);
+        right: -64px;
+        top: 272px;
+    }
+
+    .information-partners__image {
+        width: 504px;
+        column-gap: 60px;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 16px;
+    }
+
+    .pain__cards {
+        width: 100%;
+        height: 896px;
+    }
+
+    .pain__card--1 {
+        width: 31%;
+        height: 304px;
+    }
+
+    .pain__card--2 {
+        width: 65%;
+        height: 304px;
+    }
+
+    .pain__card--3 {
+        width: 48%;
+    }
+
+    .pain__card--4 {
+        width: 48%;
+    }
+
+    .pain__card--5 {
+        width: 48%;
+    }
+
+    .pain__card--6 {
+        width: 48%;
+    }
+
+    .result-title {
+        width: 100%;
+    }
+
+    .test-benefits__cards {
+        flex-wrap: wrap;
+    }
+
+    .test-benefits__card {
+        width: 45%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .experts__card {
+        width: 28%;
+    }
+
+    .experts__card-photo {
+        width: 131px;
+        height: 131px;
+    }
+
+    .experts__CEO {
+        width: 720px;
+        height: 416px;
+    }
+
+    .experts__CEO__card {
+        padding: 40px;
+    }
+
+    .experts__CEO-text {
+        width: 448px;
+        height: 336px;
+    }
+
+    footer {
+        width: 768px;
+        height: 978px;
+    }
+
+    .social-networks {
+        width: 768px;
+    }
+
+    .footer__text-block > :first-child {
+        width: 356px;
+    }
+
+    .footer__text-it-department-work-image {
+        position: absolute;
+        width: 348px;
+        height: 353px;
+        right: 0;
+        top: calc(33% - 353px / 2 + 0.5px);
+    }
+
+    .footer-logo {
+        right: calc(var(--spacing-s) * 2);
+    }
+
+    .footer__text {
+        margin: var(--spacing-xl) 396px 162px 0;
+    }
+
+}
