@@ -57,6 +57,7 @@
         width: calc(100% + 128px);
         right: -64px;
         top: 272px;
+        max-width: 896px;
     }
 
     .information-partners__image {

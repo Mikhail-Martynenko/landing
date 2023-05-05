@@ -10,7 +10,6 @@
     }
 
     .logo {
-        width: 77px;
         height: 56px;
         left: 110px;
         top: 22px;
@@ -286,7 +285,6 @@
     .social-networks__container, .questions__container {
         width: 60%;
     }
-
 
 
     .footer-logo {
