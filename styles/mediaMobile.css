@@ -249,7 +249,7 @@
         position: absolute;
         width: 288px;
         height: 292px;
-        top: 332px;
+        top: 418px;
     }
 
     .footer__text {
@@ -273,6 +273,7 @@
 
     .footer__text-block {
         width: 100%;
+        margin-top: 96px;
     }
 
     .social-networks {
@@ -288,7 +289,8 @@
 
 
     .footer-logo {
-        bottom: -124px;
+        right: 16px;
+        bottom: 22px;
     }
 
     .footer-logo img {

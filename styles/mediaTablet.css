@@ -158,7 +158,8 @@
     }
 
     .footer-logo {
-        right: calc(var(--spacing-s) * 2);
+        right: 24px;
+        bottom: 80px;
     }
 
     .footer__text {

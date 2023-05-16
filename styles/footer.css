@@ -13,8 +13,8 @@ footer {
 }
 
 .footer-logo {
-    right: 0;
-    bottom: 0;
+    right: 132px;
+    bottom: var(--spacing-l);
 }
 
 .social-networks {
