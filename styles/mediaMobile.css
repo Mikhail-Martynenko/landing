@@ -138,6 +138,9 @@
     h2 {
         font-size: var(--font-size-32);
     }
+    .pain > :first-child {
+        width: 70%;
+    }
 
     .pain__cards {
         display: flex;

@@ -67,6 +67,9 @@
         justify-content: center;
         row-gap: 16px;
     }
+    .pain > :first-child {
+        width: 70%;
+    }
 
     .pain__cards {
         width: 100%;
