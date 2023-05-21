@@ -7,12 +7,17 @@
 
     header {
         margin-bottom: 271px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        align-content: center;
     }
 
     .logo {
+        position: relative;
         width: 123px;
         height: 56px;
-        left: 354px;
+        left: 0;
         top: 48px;
         z-index: 10000;
     }
@@ -22,7 +27,7 @@
         width: 640px;
         height: 716px;
         left: 0;
-        top: 0;
+        top: -55px;
         margin: 0 auto;
     }
 
@@ -55,9 +60,8 @@
 
     .it-department-work-image {
         width: calc(100% + 128px);
-        right: -64px;
+        left: -64px;
         top: 272px;
-        max-width: 896px;
     }
 
     .information-partners__image {
@@ -67,6 +71,7 @@
         justify-content: center;
         row-gap: 16px;
     }
+
     .pain > :first-child {
         width: 70%;
     }
