@@ -6,7 +6,6 @@
     .container {
         width: 100%;
         padding: 0 16px;
-        overflow: hidden;
     }
 
     .logo {
@@ -25,10 +24,12 @@
     }
 
     .it-department-work-image {
-        width: 448px;
-        height: 490px;
-        left: -64px;
-        top: 272px;
+        width: 100%;
+        max-width: calc(100% + 128px);
+        margin-right: -64px;
+        height: 981px;
+        left: 0;
+        top: 60px;
     }
 
 

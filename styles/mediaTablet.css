@@ -59,8 +59,11 @@
     }
 
     .it-department-work-image {
-        width: calc(100% + 128px);
-        left: -64px;
+        width: 100%;
+        max-width: calc(100% + 128px);
+        margin-right: -64px;
+        height: 981px;
+        left: 0;
         top: 272px;
     }
 
