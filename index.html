@@ -3,68 +3,288 @@
 <head>
     <meta charset="UTF-8">
     <title>Landing</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/mediaTablet.css" media="screen and (max-width: 979px) and (min-width: 768px)">
+    <link rel="stylesheet" type="text/css" href="styles/mediaMobile.css" media="screen and (max-width: 767px) and (min-width: 200px)">
+    <link href="https://fonts.cdnfonts.com/css/futura-pt" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/futura-condensed-pt" rel="stylesheet">
+</head>
 </head>
 <body>
-<div class="container">
-    <header>
-        <img class="logo" src="./images/WS-Logo-Mono.svg" alt="logo">
-        <img class="illustration" src="./images/vector-illustration-top.svg" alt="vector-illustration-top">
-        <div class="wrapper">
-            <div class="wrapper__header">
-                <div class="wrapper__header-badge fw-500">🔥 Спецпроект 🔥</div>
-                <h1 class="wrapper__header-heading fw-400">Готовы ли вы к разработке продукта?</h1>
-                <div class="wrapper__header-sub fw-400">Определите свой уровень знаний в продуктовой разработке и
-                    бесплатно
-                    получите рекомендации
-                    от экспертов
-                    рынка
+<header class="container position-relative full-width">
+    <img alt="Логотип Work Solutions" class="logo position-absolute" src="images/WS-Logo.svg">
+    <img
+            alt="IT-отдел в работе" class="it-department-work-image position-absolute"
+            src="images/it-department-work-image.svg"
+    >
+    <div class="header-content__wrapper position-absolute">
+        <div class="wrapper__header">
+            <div class="wrapper__header-badge fw-400">
+                <img alt="Эмодзи огня" class="fire" src="images/emoji/fire.svg">
+                Спецпроект
+                <img alt="Эмодзи огня" src="images/emoji/fire.svg">
+            </div>
+            <h1 class="wrapper__header-heading fw-400">
+                Готовы ли вы к&nbsp;разработке продукта?
+            </h1>
+            <div class="wrapper__header-sub fw-400">
+                Определите свой уровень знаний в продуктовой разработке и бесплатно получите рекомендации от экспертов
+                рынка
+            </div>
+        </div>
+        <div class="wrapper__button">
+            <button class="fw-600">Начать тест</button>
+            <small>Прохождение займет ~25 минут</small>
+        </div>
+        <div class="wrapper__more position-relative">
+            <img alt="Дуга" class="arc" src="./images/arc.svg">
+            <div class="wrapper__more--text position-absolute">
+                <small>Подробнее</small>
+                <img alt="Стрелка вниз" src="images/arrows-down.svg">
+            </div>
+        </div>
+    </div>
+</header>
+<section class="partners">
+    <section class="general-partners full-width">
+        <h4 class="general-partners__title">
+            Генеральные партнеры
+        </h4>
+        <div class="general-partners__image">
+            <img alt="cossa" class="general-partners__image--1" src="images/general-partners/cossa.svg">
+            <img alt="ruward" class="general-partners__image--2" src="images/general-partners/ruward.svg">
+        </div>
+    </section>
+    <section class="information-partners full-width">
+        <h4 class="information-partners__title">
+            Информационные партнеры
+        </h4>
+        <div class="information-partners__image">
+            <img alt="Big 360" src="images/information-partners/big360.svg">
+            <img alt="CMS magazine" src="images/information-partners/CMS-magazine.svg">
+            <img alt="ARDA" src="images/information-partners/arda.svg">
+            <img alt="RB RUSBASE" src="images/information-partners/rb-rusbase.svg">
+        </div>
+    </section>
+</section>
+<main class="full-width">
+    <section class="container pain full-width">
+        <h2 class="pain__title">
+            Какие&nbsp;боли&nbsp;есть на&nbsp;рынке разработки?
+        </h2>
+        <ol class="pain__cards fw-600 full-width">
+            <li class="pain__card pain__card--1">
+                Пересечение функций Product- и Project- менеджеров
+                <img alt="emoji-1" class="pain-emoji" src="images/emoji/emoji-1.svg">
+            </li>
+            <li class="pain__card pain__card--2">
+                Общий низкий уровень знаний в области создания цифровых продуктов
+                <img alt="emoji-2" class="pain-emoji" src="images/emoji/emoji-2.svg">
+            </li>
+            <li class="pain__card pain__card--3">
+                Некачественное делегирование обязанностей Proxy PO
+                <img alt="emoji-3" class="pain-emoji" src="images/emoji/emoji-3.svg">
+            </li>
+            <li class="pain__card pain__card--4">
+                В роли Product Owner выступает Stakeholder, часто не догадываясь об этом
+                <img alt="emoji-4" class="pain-emoji" src="images/emoji/emoji-4.svg">
+            </li>
+            <li class="pain__card pain__card--5">
+                Заблуждение о том, что роль Product Owner возможна только при Agile-подходе
+                <img alt="emoji-5" class="pain-emoji" src="images/emoji/emoji-5.svg">
+            </li>
+            <li class="pain__card pain__card--6">
+                Разработка продуктов без Product Owner наиболее подвержена рискам
+                <img alt="emoji-6" class="pain-emoji" src="images/emoji/emoji-6.svg">
+            </li>
+        </ol>
+        <div class="result-title fw-600">
+            <span>
+                В результате многие продукты еще до запуска сталкиваются со сложностями —
+                чтобы это исправить, мы собрали рекомендации экспертов и разработали тест
+            </span>
+        </div>
+    </section>
+    <section class="test-benefits full-width">
+        <div class="test-benefits__title">
+            <h2>Чем мне поможет этот тест?</h2>
+            <p>После прохождения теста вы сможете:</p>
+        </div>
+        <div class="test-benefits__cards fw-600">
+            <div class="test-benefits__card">
+                <div class="test-benefits__card-text">
+                    <img alt="Эмодзи согласия" src="images/emoji/emoji-agreement.svg">
+                    <span>Определить собственный уровень знаний в области создания цифровых продуктов</span>
                 </div>
             </div>
-            <div class="wrapper__button">
-                <button class="fw-800">Начать тест</button>
-                <p>Прохождение займет ~25 минут</p>
+            <div class="test-benefits__card">
+                <div class="test-benefits__card-text">
+                    <img alt="Эмодзи вулканский салют" src="images/emoji/vulcan-salute.svg">
+                    <span>Ознакомиться с советами ведущих экспертов рынка</span>
+                </div>
             </div>
-            <div class="wrapper__more">
-                <img class="" src="./images/arc.svg" alt="logo">
-            </div>
-        </div>
-    </header>
-    <section class="general-partners">
-        <h4 class="general-partners__title">Генеральные партнеры</h4>
-        <div class="general-partners__image">
-            <img class="" src="images/general-partners/cossa.svg" alt="cossa">
-            <img class="" src="images/general-partners/ruward.svg" alt="ruward">
-        </div>
-    </section>
-
-    <section class="information-partners">
-        <h4 class="information-partners__title">Информационные партнеры</h4>
-        <div class="information-partners__image">
-            <img src="images/information-partners/client-card-1.svg" alt="client-card-1">
-            <img src="images/information-partners/client-card-2.svg" alt="client-card-2">
-            <img src="images/information-partners/client-card-3.svg" alt="client-card-3">
-            <img src="images/information-partners/client-card-4.svg" alt="client-card-4">
-        </div>
-    </section>
-    <section class="pain">
-        <h2 class="pain__title">Какие боли есть на рынке разработки?</h2>
-        <div class="pain__cards">
-            <div class="pain__card pain__card--1">Пересечение функций Product- и Project- менеджеров</div>
-            <div class="pain__card pain__card--2">Общий низкий уровень знаний в области создания цифровых продуктов
-            </div>
-            <div class="pain__card pain__card--3">Некачественное делегирование обязанностей Proxy PO</div>
-            <div class="pain__card pain__card--4">В роли Product Owner выступает Stakeholder, часто не догадываясь об
-                этом
-            </div>
-            <div class="pain__card pain__card--5">Заблуждение о том, что роль Product Owner возможна только при
-                Agile-подходе
-            </div>
-            <div class="pain__card pain__card--6">Разработка продуктов без Product Owner наиболее подвержена рискам
+            <div class="test-benefits__card">
+                <div class="test-benefits__card-text">
+                    <img alt="Эмодзи жест шокера" src="images/emoji/emoji-shocking.svg">
+                    <span>Бесплатно получить список полезных материалов для дальнейшего развития</span>
+                </div>
             </div>
         </div>
     </section>
-</div>
+    <section class="container experts">
+        <div class="experts__title">
+            <h2>Эксперты</h2>
+            <p>
+                Тест не получился бы таким полезным, если бы не представители продуктовых и не только компаний,
+                принявших участие в спецпроекте. Знакомьтесь:
+            </p>
+        </div>
+        <div class="scroll">
+            <section class="experts__cards fw-600">
+                <div class="experts__card">
+                    <img alt="Эмодзи мужчины" class="experts__card-photo" src="images/photo/man.png">
+                    <span class="experts__card-name">Глеб Кудрявцев</span>
+                    <span class="experts__card-job-title fw-400">Руководитель продуктов</span>
+                    <span class="experts__card-company">Skyeng</span>
+                </div>
+                <div class="experts__card">
+                    <img alt="Эмодзи женщины" class="experts__card-photo" src="images/photo/woman.png">
+                    <span class="experts__card-name">Татьяна Гороховская</span>
+                    <span class="experts__card-job-title fw-400">Ментор</span>
+                    <span class="experts__card-company">Russol — онлайн-школа стартапов</span>
+                </div>
+                <div class="experts__card">
+                    <img alt="Эмодзи женщины" class="experts__card-photo" src="images/photo/woman.png">
+                    <span class="experts__card-name">Марина Арефьева</span>
+                    <span class="experts__card-job-title fw-400">Сооснователь</span>
+                    <span class="experts__card-company">Creative Mind Consulting</span>
+                </div>
+                <div class="experts__card">
+                    <img alt="Фотография: Иван Жуган" class="experts__card-photo" src="images/photo/ivan.png">
+                    <span class="experts__card-name">Иван Жуган</span>
+                    <span class="experts__card-job-title fw-400">Product Manager</span>
+                    <span class="experts__card-company">Яндекс Практикум</span>
+                </div>
+                <div class="experts__card">
+                    <img alt="Эмодзи мужчины" class="experts__card-photo" src="images/photo/man.png">
+                    <span class="experts__card-name">Евгений Швайковский</span>
+                    <span class="experts__card-job-title fw-400">Product Manager</span>
+                    <span class="experts__card-company">Okko</span>
+                </div>
+                <div class="experts__card">
+                    <img alt="Эмодзи мужчины" class="experts__card-photo" src="images/photo/man.png">
+                    <span class="experts__card-name">Вячеслав Кузнецов</span>
+                    <span class="experts__card-job-title fw-400">Руководитель продукта</span>
+                    <span class="experts__card-company">Healbe</span>
+                </div>
+                <div class="experts__card">
+                    <img alt="Фотография: Владислав Прищепов" class="experts__card-photo" src="images/photo/vlad.png">
+                    <span class="experts__card-name">Владислав Прищепов</span>
+                    <span class="experts__card-job-title fw-400">Product Manager</span>
+                    <span class="experts__card-company">Delivery Club</span>
+                </div>
+                <div class="experts__card">
+                    <img alt="Фотография: Андрей Хаснутдинов" class="experts__card-photo" src="images/photo/andrey.png">
+                    <span class="experts__card-name">Андрей Хаснутдинов</span>
+                    <span class="experts__card-job-title fw-400">Head of product manager</span>
+                    <span class="experts__card-company">Nero Electronics</span>
+                </div>
+                <div class="experts__card">
+                    <img alt="Фотография: Александр Шешотов" class="experts__card-photo" src="images/photo/alex-sh.png">
+                    <span class="experts__card-name">Александр Шешотов</span>
+                    <span class="experts__card-job-title fw-400">Руководитель направления «Мобильная разработка»</span>
+                    <span class="experts__card-company">*Название скрыто*</span>
+                </div>
+                <div class="experts__card">
+                    <img
+                            alt="Фотография: Александр Коржанов" class="experts__card-photo"
+                            src="images/photo/alex-korj.png"
+                    >
+                    <span class="experts__card-name">Александр Коржанов</span>
+                    <span class="experts__card-job-title fw-400">Сооснователь</span>
+                    <span class="experts__card-company">Conspirate Quests, PR Motion</span>
+                </div>
+                <div class="experts__card">
+                    <img alt="Фотография: Артем Салютин" class="experts__card-photo" src="images/photo/artem.png">
+                    <span class="experts__card-name">Артем Салютин</span>
+                    <span class="experts__card-job-title fw-400">Руководитель проектов</span>
+                    <span class="experts__card-company color-ws">Work Solutions</span>
+                </div>
+            </section>
+        </div>
+        <section class="experts__CEO position-relative full-width">
+            <div class="experts__CEO__card">
+                <div class="experts__CEO-info">
+                    <img alt="Фотография: Максим Мул" class="experts__CEO-photo" src="images/photo/photo-CEO.png">
+                    <span class="experts__card-name">Максим Мул</span>
+                    <span class="experts__card-job-title fw-400">CEO</span>
+                    <span class="experts__card-company color-ws">Work Solutions</span>
+                </div>
+                <div class="experts__CEO-text fw-400">
+                    <p>
+                        За 11 лет на digital-рынке я помогал в разработке продуктов собственникам бизнеса,
+                        IT-директорам,
+                        брендменеджерам, руководителям маркетинга и не только.
+                    </p>
+                    <p>
+                        Независимо от должности, самых выдающихся результатов добивались те, кто принимали на себя роль
+                        владельца продукта, часто даже не догадываясь об этом.
+                    </p>
+                    <p>
+                        Поэтому мы подготовили для вас этот проект. С его помощью мы надеемся сделать рынок немного
+                        прозрачнее и уберечь будущие проекты от распространенных рисков.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </section>
+</main>
+<footer class="position-relative full-width">
+    <div class="container position-relative">
+        <div class="footer__text full-width">
+            <div class="footer__text-block">
+                <h2>
+                    Все&nbsp;еще не&nbsp;прошли тест?
+                </h2>
+                <p class="footer__text-p fw-400">
+                    Смелее, мы ничего не продаем и не собираем адреса почтовых ящиков, а лишь делаем рынок заказной
+                    разработки чуточку прозрачнее
+                    <img alt="Эмодзи подмигивания" src="images/emoji/emoji-wink.svg">
+                </p>
+                <button class="fw-600">Поехали!</button>
+            </div>
+            <div class="footer__text-it-department-work-image">
+                <img alt="IT-отдел в работе" src="images/it-department-work-image.svg" width="100%">
+            </div>
+        </div>
+        <section class="social-networks position-relative full-width">
+            <div class="social-networks__container">
+                <span class="fw-500">Наши соцсети</span>
+                <div class="icons">
+                    <div class="icon">
+                        <img alt="Логотип Facebook" src="images/icons/facebook.svg">
+                        <span>Facebook</span>
+                    </div>
+                    <div class="icon">
+                        <img alt="Логотип Instagram" src="images/icons/instagram.svg">
+                        <span>Instagram</span>
+                    </div>
+                </div>
+            </div>
+            <div class="questions__container">
+                <span class="fw-500">По любым вопросам</span>
+                <a href="mailto:partners@worksolutions.ru">partners@worksolutions.ru</a>
+                <a href="tel:+78632701644">+7 (863) 270-16-44</a>
+            </div>
+        </section>
+        <div class="contacts_designer">
+            <a href="http://www.freepik.com">Illustration designed by pikisuperstar / Freepik</a>
+        </div>
+        <div class="footer-logo position-absolute">
+            <img alt="Логотип Work Solutions" src="images/WS-Logo.svg">
+        </div>
+    </div>
+</footer>
 </body>
 </html>

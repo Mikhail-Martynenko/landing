@@ -1,52 +1,70 @@
-.pain__title {
-    margin-top: 144px;
-    margin-bottom: 80px;
+.pain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-l);
+    margin-bottom: var(--spacing-xl);
 }
 
 .pain__cards {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    gap: 24px;
-
-    width: 1176px;
-    height: 568px;
+    gap: var(--spacing-s);
+    font-size: var(--font-size-24);
 }
 
 .pain__card {
+    position: relative;
     padding: 32px 32px 112px 32px;
     border: 1px solid var(--color-border);
     border-radius: 20px;
     color: var(--text--color-gray);
-    font-weight: 500;
+    height: var(--height-pain-cards-desktop);
 }
 
 .pain__card--1 {
-    width: 276px;
-    height: 272px;
+    width: 23%;
 }
 
 .pain__card--2 {
-    width: 376px;
-    height: 272px;
+    width: 32%;
 }
 
 .pain__card--3 {
-    width: 476px;
-    height: 272px;
+    width: 38%;
 }
 
 .pain__card--4 {
-    width: 376px;
-    height: 272px;
+    width: 32%;
 }
 
 .pain__card--5 {
-    width: 376px;
-    height: 272px;
+    width: 32%;
 }
 
 .pain__card--6 {
-    width: 376px;
-    height: 272px;
+    width: 29%
+}
+
+.pain-emoji {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    bottom: 24px;
+    right: 24px;
+}
+
+.result-title {
+    width: 768px;
+    height: 8%;
+    font-size: var(--font-size-24);
+    line-height: 132%;
+    letter-spacing: 0.0025em;
+    text-align: center;
+}
+
+.pain > :first-child {
+    align-self: flex-start;
+    width: 500px;
 }
